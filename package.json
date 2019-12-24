@@ -2,11 +2,15 @@
   "name": "crypto_wallet",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "4.2.2",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper": "^1.0.1"
   },
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.1"
+  }
 }
