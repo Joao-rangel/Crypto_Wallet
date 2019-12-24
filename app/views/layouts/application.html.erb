@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CryptoWallet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-1">
+    </div>
+    <div class="col", "nav justify-content">
+      <ul class="nav justify-content">
+          <%= link_to 'HOME', root_path, type:"button", class:"btn btn-link btn-sm" %>
+      </ul>
+    </div>
+    <div class="col">
+    <div class="container_fluid">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <%= link_to 'Portugês', root_path(locale: 'pt-BR'), class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'English', root_path(locale: 'en'), class:"nav-link" %>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <%= yield %>
+  </body>
+  
+</html>

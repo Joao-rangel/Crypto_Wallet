@@ -1,0 +1,17 @@
+<div class="container-fluid">
+<p id="notice"><%= notice %></p>
+
+  <ul class="list-group">
+      <li class="list-group-item">
+        <strong><%= @mining_type.class.human_attribute_name(:description) %>:</strong>
+        <%= @mining_type.description %>
+      </li>
+      <li class="list-group-item">
+        <strong><%= @mining_type.class.human_attribute_name(:acronym) %>:</strong>
+        <%= @mining_type.acronym %>
+      </li>
+    </ul>
+</br>
+      <%= link_to t('links.edit'), edit_mining_type_path(@mining_type), class:"btn btn-outline-primary"   %> 
+      <%= link_to t('links.back'), mining_types_path, class:"btn btn-outline-primary"   %>
+</div>

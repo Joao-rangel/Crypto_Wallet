@@ -1,0 +1,12 @@
+{
+  "name": "crypto_wallet",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

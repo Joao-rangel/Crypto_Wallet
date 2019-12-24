@@ -1,0 +1,13 @@
+pt-BR:
+  welcome: "Seja bem vindo"
+  welcome_description: "Este é o Crypto Wallet, uma app para você cadastrar e acompanhar suas moedas"
+  welcome_msg: "Para começar, selecione uma das opções abaixo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    back: "Voltar"
+  New: "Novo"
+  New_: "Nova"
+  delete_conf: "Tem certeza?"
+  Home: "Tela inicial"

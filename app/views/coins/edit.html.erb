@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <h1><%= "#{t('links.edit')} #{Coin.model_name.human}" %></h1>
+    
+    <%= render 'form', coin: @coin %>
+    
+    <%= link_to t('links.show'), @coin, class:"btn btn-outline-primary"  %>
+    <%= link_to t('links.back'), coins_path, class:"btn btn-outline-primary"  %>
+</div>
